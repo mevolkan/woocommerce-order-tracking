@@ -1,9 +1,9 @@
-Show order status and track order from woocommerce
+#Show order status and track order from woocommerce
 
 
 using Tailwind CLI
-./tailwindcss -i css/input.css -o css/styles.css --watch
-./tailwindcss -i css/input.css -o css/styles.css --minify
+npx tailwindcss -i ./css/input.css -o ./css/styles.css --watch
+npx tailwindcss -i ./css/input.css -o ./css/styles.css --minify
 
 create config.ini with variables as so
 

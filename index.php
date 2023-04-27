@@ -1,7 +1,7 @@
 <?php
 include 'partials/header.php';
 ?>
-<div>
+<div class="container bg-white dark:bg-black">
   Test  
 </div>
 <?php

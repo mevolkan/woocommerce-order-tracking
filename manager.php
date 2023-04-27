@@ -1,8 +1,12 @@
 <?php
+include 'partials/header.php';
 include './connections.php';
 
 use Automattic\WooCommerce\HttpClient\HttpClientException;
 
+?>
+<h1 class="text-blue">Current Orders</h1>
+<?php 
 
 try {
   // Array of response results.
@@ -10,11 +14,11 @@ try {
   // Example: ['customers' => [[ 'id' => 8, 'created_at' => '2015-05-06T17:43:51Z', 'email' => ...
   echo '<pre><code>' . print_r($results, true) . '</code><pre>'; // JSON output.
 
-  $results = json_decode (json_encode($results), true);
+  $results = json_decode(json_encode($results), true);
 
-  foreach($results as $key=>$value) {
+  foreach ($results as $key => $value) {
     echo "Id: {$value['id']}, Name: {$value['status']}";
-    echo"<br>";
+    echo "<br>";
   }
 
   // Last request data.
@@ -43,3 +47,8 @@ try {
   echo '<pre><code>' . print_r($e->getRequest(), true) . '</code><pre>'; // Last request data.
   echo '<pre><code>' . print_r($e->getResponse(), true) . '</code><pre>'; // Last response data.
 }
+
+
+
+include 'partials/footer.php';
+?>

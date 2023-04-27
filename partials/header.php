@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +7,6 @@
     <title>Track Orders</title>
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
 </head>
-<body>
+<body >
