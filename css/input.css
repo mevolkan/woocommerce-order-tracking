@@ -1,30 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-:root {
-  --primary-color: #eaeff0;
-  --secondary-color: #1a2841;
-}
-
-.dark_mode {
-  --primary-color: #172046;
-  --secondary-color: #fff;
-  --tertaiary-color: #09153e;
-}
-
-body {
-  margin: 0;
-  padding: 0; 
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-}
 #map {
   position: absolute;
   top: 0;
@@ -44,6 +21,6 @@ main {
   right: 20px;
   bottom: 20px;
 }
-.container{
+.container {
   padding: 20px;
 }
