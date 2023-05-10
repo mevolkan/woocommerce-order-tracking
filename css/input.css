@@ -8,6 +8,9 @@
   bottom: 0;
   width: 100%;
 }
+#rider #map {
+  top: 56px;
+}
 main {
   background: var(--tertiary-color);
   color: var(--secondary-color);
