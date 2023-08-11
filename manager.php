@@ -1,5 +1,6 @@
 <?php
 include 'partials/header.php';
+include 'partials/navigation.php';
 include './connections.php';
 
 use Automattic\WooCommerce\HttpClient\HttpClientException;
