@@ -10,7 +10,7 @@ use Automattic\WooCommerce\HttpClient\HttpClientException;
   <?php
   try {
     // Array of response results.
-    $results = $woocommerce->get('orders', array('per_page' => 20));
+    $results = $woocommerce->get('orders', array('per_page' => 10));
     // Example: ['customers' => [[ 'id' => 8, 'created_at' => '2015-05-06T17:43:51Z', 'email' => ...
     //echo '<pre><code>' . print_r($results, true) . '</code><pre>'; // JSON output.
 
