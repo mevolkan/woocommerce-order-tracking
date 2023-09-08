@@ -14,3 +14,4 @@ CONSUMER_SECRET = "cs_xxxxxxxxxxxxxxxxxxxxxx"
 ## To do
   . Add twig templating
   . detect the delivery and pickup plugins
+https://www.cloudways.com/blog/real-time-php-notification-system/
